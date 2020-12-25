@@ -28,6 +28,10 @@
   </tr>
 </table>
 </nav>
+
+
+<button id="ShowImg" type="button" onclick="ShowI()">Show Img</button>
+<div id="iimg"></div>
 <script>
 function changecolor(){
 var con = confirm("change color");
@@ -49,8 +53,8 @@ document.body.style.backgroundColor=color;
 
 
 
-<p><script src="js.js"></script><strong id="N"></strong> </p>
-<p>your sex : <strong id="se"></strong></p>
+
+
 </div>
 <P >your are <strong id="agg"  >?</strong> </P>
 
@@ -62,7 +66,7 @@ document.body.style.backgroundColor=color;
       <label for="Age">Your year of birth:</label>
       <input type="number" id="Age" name="Age"><br><br>
       <button id="submit" type="button">Save Info</button>
-      <script src="js2.js"></script>
+      <script src="app2.js"></script>
    
 
 <main>
@@ -81,6 +85,32 @@ A flower, sometimes known as a bloom or blossom, is the reproductive structure f
 <br>
 <br>
 <br>
+
+
+
+
+
+
+<script>
+  function ShowI(){
+    var img =prompt("inter a number of img");
+    while (img ==""||img==null) {
+
+var img =prompt("inter a number of img");
+};
+
+for(var i =0 ;i<img;i++ )
+{
+  var r = i + 1 
+  document.write('<p>'+r+'</p>'+'<img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/957C/production/_111686283_pic1.png" width="500" height="500"  >');
+
+}
+
+
+  };
+
+
+</script>
 
 
 </main>
@@ -104,6 +134,7 @@ A flower, sometimes known as a bloom or blossom, is the reproductive structure f
 </div>
 <br><br>
 </footer>
+<p><script src="app.js"></script><strong id="N"></strong> </p>
 </body>
 
 </html>

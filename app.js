@@ -16,11 +16,14 @@ document.write( ' <h3>' +greeting + ' </ h3> ');
 // var prom =prompt("your sex");
  
   
-  // se.innerHTML= prom ;
+  
 
- // var prom =prompt("your sex");
+  var prom =prompt("Enter your sex");
+console.log(prom);
+   
+  
+while (prom ==""||prom==null) {
 
-   var j = '2'+3;
-   var prom =prompt(j);
-var m =65
+  var prom =prompt("Enter your sex");
+};
  
